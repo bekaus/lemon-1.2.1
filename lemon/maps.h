@@ -3252,7 +3252,7 @@ namespace lemon {
 
     virtual void add(const Key& key) {
       Parent::add(key);
-      unlace(key);
+      lace(key);
     }
 
     virtual void add(const std::vector<Key>& keys) {
