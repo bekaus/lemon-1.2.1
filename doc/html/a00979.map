@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$a00021.html" title="Iterator class for the arcs." alt="" coords="5,86,56,117"/>
+<area shape="rect" id="node5" href="$a00175.html" title="Iterator class for the incoming arcs of a node." alt="" coords="80,86,141,117"/>
+<area shape="rect" id="node7" href="$a00248.html" title="Iterator class for the outgoing arcs of a node." alt="" coords="165,86,235,117"/>
+</map>
