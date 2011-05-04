@@ -2739,7 +2739,7 @@ namespace lemon {
   namespace _maps_bits {
     template <typename Item>
     struct IterableIntMapNode {
-      IterableIntMapNode() : value(-1) {}
+      IterableIntMapNode() : prev(INVALID), next(INVALID), value(-1) {}
       IterableIntMapNode(int _value) : value(_value) {}
       Item prev, next;
       int value;
@@ -3031,7 +3031,7 @@ namespace lemon {
   namespace _maps_bits {
     template <typename Item, typename Value>
     struct IterableValueMapNode {
-      IterableValueMapNode(Value _value = Value()) : value(_value) {}
+      IterableValueMapNode(Value _value = Value()) : prev(INVALID), next(INVALID), value(_value) {}
       Item prev, next;
       Value value;
     };
